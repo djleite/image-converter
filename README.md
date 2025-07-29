@@ -7,7 +7,7 @@ Batch convert images to `.webp`, rename them with a custom base name, and option
 
 ## Features
 
-- Rename image files with a string such as `new-image-name`, to get files `new-image-name_01.webp`, `new-image-name_02.webp`, etc.
+- Rename image files with a string such as `new-image-name`, to get files `new-image-name-01.webp`, `new-image-name-02.webp`, etc.
 - Apply ImageMagick options like resizing, quality control, etc.
 - Output directory is automatically created.
 - Docker container includes Conda + ImageMagick, so no setup needed on your machine.

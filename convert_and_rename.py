@@ -27,7 +27,7 @@ def convert_and_rename_images(input_dir, output_dir, basename, magick_args):
     print(f"Converting {len(input_files)} images...")
 
     for i, img_path in enumerate(input_files, start=1):
-        suffix = f"_{i:02d}.webp"
+        suffix = f"-{i:02d}.webp"
         output_path = output_dir / f"{basename}{suffix}"
 
         cmd = [
